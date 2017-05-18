@@ -1,7 +1,7 @@
 roll_array = []
 
 5.times do
-  roll = Random.rand(7)
+  roll = Random.rand(6) + 1
   roll_array.push("The result of your roll is #{roll}.")
 end
 
