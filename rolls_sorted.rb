@@ -5,6 +5,5 @@ roll_array = []
   roll_array.push("The result of your roll is #{roll}.")
 end
 
-sorted_roll_array = roll_array.sort!
-
-puts sorted_roll_array
+roll_array.sort!
+puts roll_array
